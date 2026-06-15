@@ -1,10 +1,9 @@
 name: Nightly Travel Data Update
 
-# This tells GitHub to run the script every night at midnight UTC
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch: # This allows you to click a button to run it manually anytime
+  workflow_dispatch: 
 
 jobs:
   update-data:
@@ -12,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -27,6 +26,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add advisories.json
-          # Only commit if the data actually changed today
           git diff --quiet && git diff --staged --quiet || git commit -m "Automated nightly data update from Canada.ca"
           git push
