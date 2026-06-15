@@ -1,7 +1,8 @@
 import json
-import urllib.request
 import re
 import sys
+# We import our new disguise tool
+from curl_cffi import requests
 
 RAW_URL = "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json"
 
@@ -19,46 +20,23 @@ def determine_color(advisory_text):
     return "#cccccc"
 
 def main():
-    print("Hunting for a clear connection to Canada.ca...")
+    print("Disguising automated request as Google Chrome...")
     
-    # We now have 3 different doors to try
-    proxies = [
-        f"https://api.allorigins.win/raw?url={RAW_URL}",
-        f"https://api.codetabs.com/v1/proxy?quest={RAW_URL}",
-        f"https://thingproxy.freeboard.io/fetch/{RAW_URL}"
-    ]
-    
-    data = None
-    
-    for proxy in proxies:
-        print(f"Trying proxy: {proxy}")
-        req = urllib.request.Request(proxy, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-        try:
-            with urllib.request.urlopen(req, timeout=15) as response:
-                raw_response = response.read().decode('utf-8')
-                
-                # Check if it is actually JSON and not a firewall HTML page
-                try:
-                    parsed_json = json.loads(raw_response)
-                    # Make sure the actual country list is inside
-                    if "data" in parsed_json or "MEX" in parsed_json:
-                        data = parsed_json
-                        print("✅ Success! Valid data received.")
-                        break
-                    else:
-                        print("⚠️ Valid JSON, but missing country data. Trying next...")
-                except json.JSONDecodeError:
-                    print("⚠️ Proxy returned an HTML block page instead of data. Trying next proxy...")
-                    
-        except Exception as e:
-            print(f"⚠️ Proxy failed to connect: {e}")
-
-    # If all 3 proxies fail, exit the script cleanly without breaking your website
-    if data is None:
-        print("\n❌ CRITICAL: All proxies failed.")
-        print("This is normal! Your live map will simply continue using yesterday's data until tomorrow's run succeeds.")
-        sys.exit(1)
+    try:
+        # impersonate="chrome" perfectly mimics a human browser fingerprint to bypass Cloudflare
+        response = requests.get(RAW_URL, impersonate="chrome", timeout=30)
         
+        if response.status_code != 200:
+            print(f"❌ Target rejected connection. Status Code: {response.status_code}")
+            sys.exit(1)
+            
+        data = response.json()
+        print("✅ Success! Bypassed Cloudflare and secured live data.")
+        
+    except Exception as e:
+        print(f"\n❌ CRITICAL: Connection failed. \nError: {e}")
+        sys.exit(1)
+
     countries_data = data.get("data", data)
     clean_database = {}
 
