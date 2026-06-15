@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canadian Travel Advisories Map</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; width: 100%; }
+        #map { height: 100%; width: 100%; background: #e5e5e5; }
+        #status { position: absolute; top: 20px; left: 50px; z-index: 1000; background: white; padding: 15px; font-family: sans-serif; font-size: 14px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); max-width: 350px;}
+    </style>
+</head>
+<body>
+
+<div id="status">Loading live map data...</div>
+<div id="map"></div>
+
+<script>
+    var map = L.map('map').setView([20, 0], 2);
+    
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '© OpenStreetMap contributors',
+        subdomains: 'abcd',
+        maxZoom: 19
+    }).addTo(map);
+
+    const mapShapesUrl = 'https://cdn.jsdelivr.net/gh/johan/world.geo.json@master/countries.geo.json';
+
+    // The map now reads your locally generated, perfectly clean JSON file!
+    Promise.all([
+        fetch(mapShapesUrl).then(res => res.json()),
+        fetch('advisories.json').then(res => res.json())
+    ])
+    .then(([geoJsonData, canadaData]) => {
+        document.getElementById('status').innerText = "✅ Map loaded successfully!";
+        setTimeout(() => { document.getElementById('status').style.display = 'none'; }, 2000);
+
+        let codes = Object.keys(canadaData);
+
+        L.geoJson(geoJsonData, {
+            style: function(feature) {
+                let countryName = feature.properties.name.toLowerCase();
+                let mapColor = '#d3d3d3'; // Default Gray
+                
+                for (let i = 0; i < codes.length; i++) {
+                    let cData = canadaData[codes[i]];
+                    let cName = cData.name.toLowerCase();
+                    
+                    if (cName === countryName || (cName.length > 3 && countryName.includes(cName)) || (countryName.length > 3 && cName.includes(countryName))) {
+                        mapColor = cData.color; // Pulls the color the Python script already figured out
+                        break; 
+                    }
+                }
+                return { fillColor: mapColor, weight: 1, color: 'white', fillOpacity: 0.8 };
+            },
+            
+            onEachFeature: function(feature, layer) {
+                layer.on('click', function() {
+                    let countryName = feature.properties.name.toLowerCase();
+                    
+                    for (let i = 0; i < codes.length; i++) {
+                        let cData = canadaData[codes[i]];
+                        let cName = cData.name.toLowerCase();
+                        
+                        if (cName === countryName || (cName.length > 3 && countryName.includes(cName)) || (countryName.length > 3 && cName.includes(countryName))) {
+                            window.open(`https://travel.gc.ca/destinations/${cData.url_slug}`, '_blank');
+                            break;
+                        }
+                    }
+                });
+            }
+        }).addTo(map);
+    })
+    .catch(error => {
+        document.getElementById('status').innerHTML = "⚠️ Data generating... Check back in a few minutes after GitHub runs the script for the first time!";
+        console.error("Map Error:", error);
+    });
+</script>
+
+</body>
+</html>
