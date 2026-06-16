@@ -1,7 +1,7 @@
 import json
 import re
 import sys
-from curl_cffi import requests
+import urllib.request
 
 RAW_URL = "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json"
 
@@ -19,48 +19,45 @@ def determine_color(advisory_text):
     return "#cccccc"
 
 def main():
-    print("Initializing Stealth Mode & Proxy Waterfall...")
-    
-    # We bounce the request off 4 different external servers to hide GitHub's IP address
-    proxies = [
-        f"https://corsproxy.io/?url={RAW_URL}",
-        f"https://api.allorigins.win/raw?url={RAW_URL}",
-        f"https://api.codetabs.com/v1/proxy?quest={RAW_URL}",
-        # The ultimate failsafe: grabbing the latest live snapshot from the Web Archive
-        f"https://web.archive.org/web/latest/{RAW_URL}"
-    ]
+    print("Bypassing firewalls using the Internet Archive...")
     
     data = None
     
-    for proxy_url in proxies:
-        proxy_name = proxy_url.split('/')[2]
-        print(f"Bouncing request through: {proxy_name}")
+    try:
+        print("Locating the latest secure snapshot...")
+        archive_api = f"http://archive.org/wayback/available?url={RAW_URL}"
+        req = urllib.request.Request(archive_api, headers={'User-Agent': 'Mozilla/5.0'})
         
-        try:
-            # We use the Chrome disguise so the proxy servers don't block us either!
-            response = requests.get(proxy_url, impersonate="chrome", timeout=20)
+        with urllib.request.urlopen(req, timeout=15) as response:
+            archive_info = json.loads(response.read().decode())
             
-            if response.status_code == 200:
-                try:
-                    parsed_json = response.json()
-                    # Validate that it contains real country data, not a firewall CAPTCHA page
-                    if "data" in parsed_json or "MEX" in parsed_json:
-                        data = parsed_json
-                        print(f"✅ Success! Live data secured via {proxy_name}.")
-                        break
-                except Exception:
-                    pass
-            print("⚠️ Proxy blocked or returned invalid data. Bouncing to the next...")
-        except Exception as e:
-            print(f"⚠️ Proxy connection failed. Bouncing to the next...")
+        if archive_info.get("archived_snapshots", {}).get("closest", {}).get("available"):
+            snapshot_url = archive_info["archived_snapshots"]["closest"]["url"]
+            
+            # Convert the Wayback HTML viewer URL into a Raw Data URL
+            # We do this by appending 'id_' to the timestamp section of the URL
+            parts = snapshot_url.split('/')
+            parts[4] = parts[4] + 'id_'
+            raw_snapshot_url = '/'.join(parts)
+            
+            print(f"Downloading raw data from archive: {raw_snapshot_url}")
+            
+            req_raw = urllib.request.Request(raw_snapshot_url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req_raw, timeout=30) as response_raw:
+                parsed_json = json.loads(response_raw.read().decode())
+                
+                if "data" in parsed_json or "MEX" in parsed_json:
+                    data = parsed_json
+                    print("✅ Success! Live data secured from the Archive.")
+    except Exception as e:
+        print(f"⚠️ Archive retrieval failed: {e}")
 
-    # If all 4 proxies get blocked, abort cleanly.
+    # If the Archive happens to be down, we abort cleanly so your website doesn't crash
     if data is None:
-        print("\n❌ CRITICAL: All bounce proxies were blocked.")
-        print("Your map will safely keep using yesterday's data.")
+        print("\n❌ CRITICAL: Could not retrieve data from the Internet Archive.")
         sys.exit(1)
 
-    # Clean the data and prep it for the website
+    # Clean the data and prep it for your Leaflet map
     countries_data = data.get("data", data)
     clean_database = {}
 
