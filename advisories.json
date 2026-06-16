@@ -3,1380 +3,1380 @@
         "name": "Afghanistan",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "af"
+        "url_slug": "afghanistan"
     },
     "AL": {
         "name": "Albania",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "al"
+        "url_slug": "albania"
     },
     "DZ": {
         "name": "Algeria",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "dz"
+        "url_slug": "algeria"
     },
     "AS": {
         "name": "American Samoa",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "as"
+        "url_slug": "american-samoa"
     },
     "AD": {
         "name": "Andorra",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ad"
+        "url_slug": "andorra"
     },
     "AO": {
         "name": "Angola",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "ao"
+        "url_slug": "angola"
     },
     "AI": {
         "name": "Anguilla",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ai"
+        "url_slug": "anguilla"
     },
     "AQ": {
         "name": "Antarctica",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "aq"
+        "url_slug": "antarctica"
     },
     "AG": {
         "name": "Antigua and Barbuda",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ag"
+        "url_slug": "antigua-and-barbuda"
     },
     "AR": {
         "name": "Argentina",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "ar"
+        "url_slug": "argentina"
     },
     "AM": {
         "name": "Armenia",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "am"
+        "url_slug": "armenia"
     },
     "AW": {
         "name": "Aruba",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "aw"
+        "url_slug": "aruba"
     },
     "AU": {
         "name": "Australia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "au"
+        "url_slug": "australia"
     },
     "AT": {
         "name": "Austria",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "at"
+        "url_slug": "austria"
     },
     "AZ": {
         "name": "Azerbaijan",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "az"
+        "url_slug": "azerbaijan"
     },
     "PT-20": {
         "name": "Azores",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "pt-20"
+        "url_slug": "azores"
     },
     "BS": {
         "name": "Bahamas",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "bs"
+        "url_slug": "bahamas"
     },
     "BH": {
         "name": "Bahrain",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "bh"
+        "url_slug": "bahrain"
     },
     "BD": {
         "name": "Bangladesh",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "bd"
+        "url_slug": "bangladesh"
     },
     "BB": {
         "name": "Barbados",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "bb"
+        "url_slug": "barbados"
     },
     "BY": {
         "name": "Belarus",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "by"
+        "url_slug": "belarus"
     },
     "BE": {
         "name": "Belgium",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "be"
+        "url_slug": "belgium"
     },
     "BZ": {
         "name": "Belize",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "bz"
+        "url_slug": "belize"
     },
     "BJ": {
         "name": "Benin",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "bj"
+        "url_slug": "benin"
     },
     "BM": {
         "name": "Bermuda",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "bm"
+        "url_slug": "bermuda"
     },
     "BT": {
         "name": "Bhutan",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "bt"
+        "url_slug": "bhutan"
     },
     "BO": {
         "name": "Bolivia",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "bo"
+        "url_slug": "bolivia"
     },
     "BQ": {
         "name": "Bonaire",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "bq"
+        "url_slug": "bonaire"
     },
     "BA": {
         "name": "Bosnia and Herzegovina",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "ba"
+        "url_slug": "bosnia-and-herzegovina"
     },
     "BW": {
         "name": "Botswana",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "bw"
+        "url_slug": "botswana"
     },
     "BR": {
         "name": "Brazil",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "br"
+        "url_slug": "brazil"
     },
     "VG": {
         "name": "British Virgin Islands",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "vg"
+        "url_slug": "british-virgin-islands"
     },
     "BN": {
         "name": "Brunei",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "bn"
+        "url_slug": "brunei"
     },
     "BG": {
         "name": "Bulgaria",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "bg"
+        "url_slug": "bulgaria"
     },
     "BF": {
         "name": "Burkina Faso",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "bf"
+        "url_slug": "burkina-faso"
     },
     "BI": {
         "name": "Burundi",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "bi"
+        "url_slug": "burundi"
     },
     "CV": {
         "name": "Cabo Verde",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "cv"
+        "url_slug": "cabo-verde"
     },
     "KH": {
         "name": "Cambodia",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "kh"
+        "url_slug": "cambodia"
     },
     "CM": {
         "name": "Cameroon",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "cm"
+        "url_slug": "cameroon"
     },
     "IC": {
         "name": "Canary Islands",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ic"
+        "url_slug": "canary-islands"
     },
     "KY": {
         "name": "Cayman Islands",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ky"
+        "url_slug": "cayman-islands"
     },
     "CF": {
         "name": "Central African Republic",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "cf"
+        "url_slug": "central-african-republic"
     },
     "TD": {
         "name": "Chad",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "td"
+        "url_slug": "chad"
     },
     "CL": {
         "name": "Chile",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "cl"
+        "url_slug": "chile"
     },
     "CN": {
         "name": "China",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "cn"
+        "url_slug": "china"
     },
     "CO": {
         "name": "Colombia",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "co"
+        "url_slug": "colombia"
     },
     "KM": {
         "name": "Comoros",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "km"
+        "url_slug": "comoros"
     },
     "CK": {
         "name": "Cook Islands",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ck"
+        "url_slug": "cook-islands"
     },
     "CR": {
         "name": "Costa Rica",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "cr"
+        "url_slug": "costa-rica"
     },
     "CI": {
         "name": "C\u00f4te d'Ivoire (Ivory Coast)",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "ci"
+        "url_slug": "c\u00f4te-d'ivoire-(ivory-coast)"
     },
     "HR": {
         "name": "Croatia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "hr"
+        "url_slug": "croatia"
     },
     "CU": {
         "name": "Cuba",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "cu"
+        "url_slug": "cuba"
     },
     "CW": {
         "name": "Cura\u00e7ao",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "cw"
+        "url_slug": "cura\u00e7ao"
     },
     "CY": {
         "name": "Cyprus",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "cy"
+        "url_slug": "cyprus"
     },
     "CZ": {
         "name": "Czechia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "cz"
+        "url_slug": "czechia"
     },
     "CD": {
         "name": "Democratic Republic of Congo (Kinshasa)",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "cd"
+        "url_slug": "democratic-republic-of-congo-(kinshasa)"
     },
     "DK": {
         "name": "Denmark",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "dk"
+        "url_slug": "denmark"
     },
     "DJ": {
         "name": "Djibouti",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "dj"
+        "url_slug": "djibouti"
     },
     "DM": {
         "name": "Dominica",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "dm"
+        "url_slug": "dominica"
     },
     "DO": {
         "name": "Dominican Republic",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "do"
+        "url_slug": "dominican-republic"
     },
     "EC": {
         "name": "Ecuador",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "ec"
+        "url_slug": "ecuador"
     },
     "EG": {
         "name": "Egypt",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "eg"
+        "url_slug": "egypt"
     },
     "SV": {
         "name": "El Salvador",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "sv"
+        "url_slug": "el-salvador"
     },
     "GQ": {
         "name": "Equatorial Guinea",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "gq"
+        "url_slug": "equatorial-guinea"
     },
     "ER": {
         "name": "Eritrea",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "er"
+        "url_slug": "eritrea"
     },
     "EE": {
         "name": "Estonia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ee"
+        "url_slug": "estonia"
     },
     "SZ": {
         "name": "Eswatini",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "sz"
+        "url_slug": "eswatini"
     },
     "ET": {
         "name": "Ethiopia",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "et"
+        "url_slug": "ethiopia"
     },
     "FK": {
         "name": "Falkland Islands",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "fk"
+        "url_slug": "falkland-islands"
     },
     "FJ": {
         "name": "Fiji",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "fj"
+        "url_slug": "fiji"
     },
     "FI": {
         "name": "Finland",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "fi"
+        "url_slug": "finland"
     },
     "FR": {
         "name": "France",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "fr"
+        "url_slug": "france"
     },
     "GF": {
         "name": "French Guiana",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "gf"
+        "url_slug": "french-guiana"
     },
     "PF": {
         "name": "French Polynesia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "pf"
+        "url_slug": "french-polynesia"
     },
     "GA": {
         "name": "Gabon",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "ga"
+        "url_slug": "gabon"
     },
     "GM": {
         "name": "Gambia, The",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "gm"
+        "url_slug": "gambia,-the"
     },
     "GE": {
         "name": "Georgia",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "ge"
+        "url_slug": "georgia"
     },
     "DE": {
         "name": "Germany",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "de"
+        "url_slug": "germany"
     },
     "GH": {
         "name": "Ghana",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "gh"
+        "url_slug": "ghana"
     },
     "GI": {
         "name": "Gibraltar",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "gi"
+        "url_slug": "gibraltar"
     },
     "GR": {
         "name": "Greece",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "gr"
+        "url_slug": "greece"
     },
     "GL": {
         "name": "Greenland",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "gl"
+        "url_slug": "greenland"
     },
     "GD": {
         "name": "Grenada",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "gd"
+        "url_slug": "grenada"
     },
     "GP": {
         "name": "Guadeloupe",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "gp"
+        "url_slug": "guadeloupe"
     },
     "GU": {
         "name": "Guam",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "gu"
+        "url_slug": "guam"
     },
     "GT": {
         "name": "Guatemala",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "gt"
+        "url_slug": "guatemala"
     },
     "GN": {
         "name": "Guinea",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "gn"
+        "url_slug": "guinea"
     },
     "GW": {
         "name": "Guinea-Bissau",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "gw"
+        "url_slug": "guinea-bissau"
     },
     "GY": {
         "name": "Guyana",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "gy"
+        "url_slug": "guyana"
     },
     "HT": {
         "name": "Haiti",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ht"
+        "url_slug": "haiti"
     },
     "HN": {
         "name": "Honduras",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "hn"
+        "url_slug": "honduras"
     },
     "HK": {
         "name": "Hong Kong",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "hk"
+        "url_slug": "hong-kong"
     },
     "HU": {
         "name": "Hungary",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "hu"
+        "url_slug": "hungary"
     },
     "IS": {
         "name": "Iceland",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "is"
+        "url_slug": "iceland"
     },
     "IN": {
         "name": "India",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "in"
+        "url_slug": "india"
     },
     "ID": {
         "name": "Indonesia",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "id"
+        "url_slug": "indonesia"
     },
     "IR": {
         "name": "Iran",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ir"
+        "url_slug": "iran"
     },
     "IQ": {
         "name": "Iraq",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "iq"
+        "url_slug": "iraq"
     },
     "IE": {
         "name": "Ireland",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ie"
+        "url_slug": "ireland"
     },
     "IL": {
         "name": "Israel, the West Bank and the Gaza Strip",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "il"
+        "url_slug": "israel,-the-west-bank-and-the-gaza-strip"
     },
     "IT": {
         "name": "Italy",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "it"
+        "url_slug": "italy"
     },
     "JM": {
         "name": "Jamaica",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "jm"
+        "url_slug": "jamaica"
     },
     "JP": {
         "name": "Japan",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "jp"
+        "url_slug": "japan"
     },
     "JO": {
         "name": "Jordan",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "jo"
+        "url_slug": "jordan"
     },
     "KZ": {
         "name": "Kazakhstan",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "kz"
+        "url_slug": "kazakhstan"
     },
     "KE": {
         "name": "Kenya",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "ke"
+        "url_slug": "kenya"
     },
     "KI": {
         "name": "Kiribati",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ki"
+        "url_slug": "kiribati"
     },
     "XK": {
         "name": "Kosovo",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "xk"
+        "url_slug": "kosovo"
     },
     "KW": {
         "name": "Kuwait",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "kw"
+        "url_slug": "kuwait"
     },
     "KG": {
         "name": "Kyrgyzstan",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "kg"
+        "url_slug": "kyrgyzstan"
     },
     "LA": {
         "name": "Laos",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "la"
+        "url_slug": "laos"
     },
     "LV": {
         "name": "Latvia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "lv"
+        "url_slug": "latvia"
     },
     "LB": {
         "name": "Lebanon",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "lb"
+        "url_slug": "lebanon"
     },
     "LS": {
         "name": "Lesotho",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "ls"
+        "url_slug": "lesotho"
     },
     "LR": {
         "name": "Liberia",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "lr"
+        "url_slug": "liberia"
     },
     "LY": {
         "name": "Libya",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ly"
+        "url_slug": "libya"
     },
     "LI": {
         "name": "Liechtenstein",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "li"
+        "url_slug": "liechtenstein"
     },
     "LT": {
         "name": "Lithuania",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "lt"
+        "url_slug": "lithuania"
     },
     "LU": {
         "name": "Luxembourg",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "lu"
+        "url_slug": "luxembourg"
     },
     "MO": {
         "name": "Macao",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "mo"
+        "url_slug": "macao"
     },
     "MG": {
         "name": "Madagascar",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "mg"
+        "url_slug": "madagascar"
     },
     "MW": {
         "name": "Malawi",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "mw"
+        "url_slug": "malawi"
     },
     "MY": {
         "name": "Malaysia",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "my"
+        "url_slug": "malaysia"
     },
     "MV": {
         "name": "Maldives",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "mv"
+        "url_slug": "maldives"
     },
     "ML": {
         "name": "Mali",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ml"
+        "url_slug": "mali"
     },
     "MT": {
         "name": "Malta",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mt"
+        "url_slug": "malta"
     },
     "MH": {
         "name": "Marshall Islands",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mh"
+        "url_slug": "marshall-islands"
     },
     "MQ": {
         "name": "Martinique",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mq"
+        "url_slug": "martinique"
     },
     "MR": {
         "name": "Mauritania",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "mr"
+        "url_slug": "mauritania"
     },
     "MU": {
         "name": "Mauritius",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mu"
+        "url_slug": "mauritius"
     },
     "YT": {
         "name": "Mayotte",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "yt"
+        "url_slug": "mayotte"
     },
     "MX": {
         "name": "Mexico",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "mx"
+        "url_slug": "mexico"
     },
     "FM": {
         "name": "Micronesia (FSM)",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "fm"
+        "url_slug": "micronesia-(fsm)"
     },
     "MD": {
         "name": "Moldova",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "md"
+        "url_slug": "moldova"
     },
     "MC": {
         "name": "Monaco",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mc"
+        "url_slug": "monaco"
     },
     "MN": {
         "name": "Mongolia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mn"
+        "url_slug": "mongolia"
     },
     "ME": {
         "name": "Montenegro",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "me"
+        "url_slug": "montenegro"
     },
     "MS": {
         "name": "Montserrat",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ms"
+        "url_slug": "montserrat"
     },
     "MA": {
         "name": "Morocco",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "ma"
+        "url_slug": "morocco"
     },
     "MZ": {
         "name": "Mozambique",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "mz"
+        "url_slug": "mozambique"
     },
     "MM": {
         "name": "Myanmar",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "mm"
+        "url_slug": "myanmar"
     },
     "NA": {
         "name": "Namibia",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "na"
+        "url_slug": "namibia"
     },
     "NR": {
         "name": "Nauru",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "nr"
+        "url_slug": "nauru"
     },
     "NP": {
         "name": "Nepal",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "np"
+        "url_slug": "nepal"
     },
     "NL": {
         "name": "Netherlands",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "nl"
+        "url_slug": "netherlands"
     },
     "NC": {
         "name": "New Caledonia",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "nc"
+        "url_slug": "new-caledonia"
     },
     "NZ": {
         "name": "New Zealand",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "nz"
+        "url_slug": "new-zealand"
     },
     "NI": {
         "name": "Nicaragua",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "ni"
+        "url_slug": "nicaragua"
     },
     "NE": {
         "name": "Niger",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ne"
+        "url_slug": "niger"
     },
     "NG": {
         "name": "Nigeria",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "ng"
+        "url_slug": "nigeria"
     },
     "NU": {
         "name": "Niue",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "nu"
+        "url_slug": "niue"
     },
     "KP": {
         "name": "North Korea",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "kp"
+        "url_slug": "north-korea"
     },
     "MK": {
         "name": "North Macedonia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mk"
+        "url_slug": "north-macedonia"
     },
     "MP": {
         "name": "Northern Marianas",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mp"
+        "url_slug": "northern-marianas"
     },
     "NO": {
         "name": "Norway",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "no"
+        "url_slug": "norway"
     },
     "OM": {
         "name": "Oman",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "om"
+        "url_slug": "oman"
     },
     "PK": {
         "name": "Pakistan",
         "advisory_text": "Avoid non-essential travel (with regional advisories)",
         "color": "#fd7e14",
-        "url_slug": "pk"
+        "url_slug": "pakistan"
     },
     "PW": {
         "name": "Palau",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "pw"
+        "url_slug": "palau"
     },
     "PA": {
         "name": "Panama",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "pa"
+        "url_slug": "panama"
     },
     "PG": {
         "name": "Papua New Guinea",
         "advisory_text": "Avoid non-essential travel",
         "color": "#fd7e14",
-        "url_slug": "pg"
+        "url_slug": "papua-new-guinea"
     },
     "PY": {
         "name": "Paraguay",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "py"
+        "url_slug": "paraguay"
     },
     "PE": {
         "name": "Peru",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "pe"
+        "url_slug": "peru"
     },
     "PH": {
         "name": "Philippines",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "ph"
+        "url_slug": "philippines"
     },
     "PL": {
         "name": "Poland",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "pl"
+        "url_slug": "poland"
     },
     "PT": {
         "name": "Portugal",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "pt"
+        "url_slug": "portugal"
     },
     "PR": {
         "name": "Puerto Rico",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "pr"
+        "url_slug": "puerto-rico"
     },
     "QA": {
         "name": "Qatar",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "qa"
+        "url_slug": "qatar"
     },
     "CG": {
         "name": "Republic of Congo (Brazzaville)",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "cg"
+        "url_slug": "republic-of-congo-(brazzaville)"
     },
     "RE": {
         "name": "R\u00e9union",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "re"
+        "url_slug": "r\u00e9union"
     },
     "RO": {
         "name": "Romania",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ro"
+        "url_slug": "romania"
     },
     "RU": {
         "name": "Russia",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ru"
+        "url_slug": "russia"
     },
     "RW": {
         "name": "Rwanda",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "rw"
+        "url_slug": "rwanda"
     },
     "BL": {
         "name": "Saint-Barth\u00e9lemy",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "bl"
+        "url_slug": "saint-barth\u00e9lemy"
     },
     "KN": {
         "name": "Saint Kitts and Nevis",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "kn"
+        "url_slug": "saint-kitts-and-nevis"
     },
     "LC": {
         "name": "Saint Lucia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "lc"
+        "url_slug": "saint-lucia"
     },
     "MF": {
         "name": "Saint Martin",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "mf"
+        "url_slug": "saint-martin"
     },
     "PM": {
         "name": "Saint-Pierre-et-Miquelon",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "pm"
+        "url_slug": "saint-pierre-et-miquelon"
     },
     "VC": {
         "name": "Saint Vincent & the Grenadines",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "vc"
+        "url_slug": "saint-vincent-&-the-grenadines"
     },
     "WS": {
         "name": "Samoa",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ws"
+        "url_slug": "samoa"
     },
     "SM": {
         "name": "San Marino",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "sm"
+        "url_slug": "san-marino"
     },
     "ST": {
         "name": "Sao Tome and Principe",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "st"
+        "url_slug": "sao-tome-and-principe"
     },
     "SA": {
         "name": "Saudi Arabia",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "sa"
+        "url_slug": "saudi-arabia"
     },
     "SN": {
         "name": "Senegal",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "sn"
+        "url_slug": "senegal"
     },
     "RS": {
         "name": "Serbia",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "rs"
+        "url_slug": "serbia"
     },
     "SC": {
         "name": "Seychelles",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "sc"
+        "url_slug": "seychelles"
     },
     "SL": {
         "name": "Sierra Leone",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "sl"
+        "url_slug": "sierra-leone"
     },
     "SG": {
         "name": "Singapore",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "sg"
+        "url_slug": "singapore"
     },
     "SX": {
         "name": "Sint Maarten",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "sx"
+        "url_slug": "sint-maarten"
     },
     "SK": {
         "name": "Slovakia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "sk"
+        "url_slug": "slovakia"
     },
     "SI": {
         "name": "Slovenia",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "si"
+        "url_slug": "slovenia"
     },
     "SB": {
         "name": "Solomon Islands",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "sb"
+        "url_slug": "solomon-islands"
     },
     "SO": {
         "name": "Somalia",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "so"
+        "url_slug": "somalia"
     },
     "ZA": {
         "name": "South Africa",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "za"
+        "url_slug": "south-africa"
     },
     "KR": {
         "name": "South Korea",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "kr"
+        "url_slug": "south-korea"
     },
     "SS": {
         "name": "South Sudan",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ss"
+        "url_slug": "south-sudan"
     },
     "ES": {
         "name": "Spain",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "es"
+        "url_slug": "spain"
     },
     "LK": {
         "name": "Sri Lanka",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "lk"
+        "url_slug": "sri-lanka"
     },
     "SD": {
         "name": "Sudan",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "sd"
+        "url_slug": "sudan"
     },
     "SR": {
         "name": "Suriname",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "sr"
+        "url_slug": "suriname"
     },
     "SE": {
         "name": "Sweden",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "se"
+        "url_slug": "sweden"
     },
     "CH": {
         "name": "Switzerland",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "ch"
+        "url_slug": "switzerland"
     },
     "SY": {
         "name": "Syria",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "sy"
+        "url_slug": "syria"
     },
     "TW": {
         "name": "Taiwan",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "tw"
+        "url_slug": "taiwan"
     },
     "TJ": {
         "name": "Tajikistan",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "tj"
+        "url_slug": "tajikistan"
     },
     "TZ": {
         "name": "Tanzania",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "tz"
+        "url_slug": "tanzania"
     },
     "TH": {
         "name": "Thailand",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "th"
+        "url_slug": "thailand"
     },
     "TL": {
         "name": "Timor-Leste (East Timor)",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "tl"
+        "url_slug": "timor-leste-(east-timor)"
     },
     "TG": {
         "name": "Togo",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "tg"
+        "url_slug": "togo"
     },
     "TK": {
         "name": "Tokelau",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "tk"
+        "url_slug": "tokelau"
     },
     "TO": {
         "name": "Tonga",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "to"
+        "url_slug": "tonga"
     },
     "TT": {
         "name": "Trinidad and Tobago",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "tt"
+        "url_slug": "trinidad-and-tobago"
     },
     "TN": {
         "name": "Tunisia",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "tn"
+        "url_slug": "tunisia"
     },
     "TR": {
         "name": "T\u00fcrkiye",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "tr"
+        "url_slug": "t\u00fcrkiye"
     },
     "TM": {
         "name": "Turkmenistan",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "tm"
+        "url_slug": "turkmenistan"
     },
     "TC": {
         "name": "Turks and Caicos Islands",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "tc"
+        "url_slug": "turks-and-caicos-islands"
     },
     "TV": {
         "name": "Tuvalu",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "tv"
+        "url_slug": "tuvalu"
     },
     "UG": {
         "name": "Uganda",
         "advisory_text": "Exercise a high degree of caution (with regional advisories)",
         "color": "#ffc107",
-        "url_slug": "ug"
+        "url_slug": "uganda"
     },
     "UA": {
         "name": "Ukraine",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ua"
+        "url_slug": "ukraine"
     },
     "AE": {
         "name": "United Arab Emirates",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "ae"
+        "url_slug": "united-arab-emirates"
     },
     "GB": {
         "name": "United Kingdom",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "gb"
+        "url_slug": "united-kingdom"
     },
     "US": {
         "name": "United States",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "us"
+        "url_slug": "united-states"
     },
     "UY": {
         "name": "Uruguay",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "uy"
+        "url_slug": "uruguay"
     },
     "UZ": {
         "name": "Uzbekistan",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "uz"
+        "url_slug": "uzbekistan"
     },
     "VU": {
         "name": "Vanuatu",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "vu"
+        "url_slug": "vanuatu"
     },
     "VE": {
         "name": "Venezuela",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ve"
+        "url_slug": "venezuela"
     },
     "VN": {
         "name": "Vietnam",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "vn"
+        "url_slug": "vietnam"
     },
     "VI": {
         "name": "Virgin Islands (U.S.)",
         "advisory_text": "Exercise normal security precautions",
         "color": "#28a745",
-        "url_slug": "vi"
+        "url_slug": "virgin-islands-(u.s.)"
     },
     "YE": {
         "name": "Yemen",
         "advisory_text": "Avoid all travel",
         "color": "#dc3545",
-        "url_slug": "ye"
+        "url_slug": "yemen"
     },
     "ZM": {
         "name": "Zambia",
         "advisory_text": "Exercise normal security precautions (with regional advisories)",
         "color": "#28a745",
-        "url_slug": "zm"
+        "url_slug": "zambia"
     },
     "ZW": {
         "name": "Zimbabwe",
         "advisory_text": "Exercise a high degree of caution",
         "color": "#ffc107",
-        "url_slug": "zw"
+        "url_slug": "zimbabwe"
     }
 }
