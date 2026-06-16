@@ -20,7 +20,6 @@ def determine_color(advisory_text):
     return "#cccccc"
 
 def fetch_json_api():
-    """Attempt 1: Try getting the raw JSON via Wayback Machine."""
     print("Attempt 1: Querying Wayback Machine for JSON API...")
     try:
         archive_api = f"http://archive.org/wayback/available?url={RAW_JSON_URL}"
@@ -37,8 +36,7 @@ def fetch_json_api():
             req_raw = urllib.request.Request(raw_url, headers={'User-Agent': 'Mozilla/5.0'})
             with urllib.request.urlopen(req_raw, timeout=20) as response_raw:
                 raw_text = response_raw.read().decode('utf-8')
-                if not raw_text.strip():
-                    raise ValueError("Wayback returned an empty file.")
+                if not raw_text.strip(): return None
                 
                 parsed = json.loads(raw_text)
                 if "data" in parsed:
@@ -48,19 +46,16 @@ def fetch_json_api():
     return None
 
 def fetch_html_scraper():
-    """Attempt 2: Directly scrape the official Canada Travel HTML page."""
     print("Attempt 2: Scraping the official HTML table...")
     try:
         req = urllib.request.Request(HTML_PAGE_URL, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=20) as response:
             html = response.read().decode('utf-8')
             
-        # Regex designed to extract the Country Name and Risk Level from the HTML table
         pattern = r'<a [^>]*href="[^"]*/destinations/([^"]+)"[^>]*>([^<]+)</a>\s*</td>\s*<td[^>]*>(.*?)</td>'
         matches = re.findall(pattern, html, re.IGNORECASE | re.DOTALL)
         
-        if not matches:
-            raise ValueError("Regex found no table rows. HTML structure may have changed.")
+        if not matches: return None
             
         database = {}
         for url_slug, country_name, advisory_text in matches:
@@ -78,30 +73,38 @@ def fetch_html_scraper():
 
 def main():
     print("Initializing Data Retrieval...")
-    
     clean_database = {}
     
-    # Try getting the JSON first
     raw_data = fetch_json_api()
     if raw_data:
         print("✅ Data secured via JSON API.")
-        for code, info in raw_data.items():
-            if not isinstance(info, dict): continue 
-            eng_data = info.get("eng", {})
-            country_name = eng_data.get("name", "")
-            if not country_name: continue
+        try:
+            # THE FIX: Automatically handles both Dictionaries and Lists!
+            items_to_process = raw_data.values() if isinstance(raw_data, dict) else raw_data
             
-            raw_advisory = eng_data.get("advisory-text", "")
-            clean_advisory = clean_html(raw_advisory)
+            for info in items_to_process:
+                if not isinstance(info, dict): continue 
+                eng_data = info.get("eng", {})
+                country_name = eng_data.get("name", "")
+                if not country_name: continue
+                
+                raw_advisory = eng_data.get("advisory-text", "")
+                clean_advisory = clean_html(raw_advisory)
+                
+                code = info.get("country-iso", country_name).upper()
+                
+                clean_database[code] = {
+                    "name": country_name,
+                    "advisory_text": clean_advisory,
+                    "color": determine_color(clean_advisory),
+                    "url_slug": eng_data.get("url", country_name.lower().replace(" ", "-"))
+                }
+        except Exception as e:
+            print(f"⚠️ Error parsing JSON data: {e}. Falling back to HTML scraper...")
+            clean_database = {} # Reset to empty to trigger the scraper safely
             
-            clean_database[code] = {
-                "name": country_name,
-                "advisory_text": clean_advisory,
-                "color": determine_color(clean_advisory),
-                "url_slug": eng_data.get("url", code.lower())
-            }
-    else:
-        # Fallback to the HTML Scraper
+    # If JSON failed or parsing crashed, the HTML Scraper saves the day
+    if not clean_database:
         scraped_data = fetch_html_scraper()
         if scraped_data:
             print("✅ Data secured via HTML Scraper.")
@@ -117,3 +120,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
